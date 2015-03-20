@@ -1,0 +1,6 @@
+package mal
+
+modules = step0_repl
+main = main
+executable = mal
+
