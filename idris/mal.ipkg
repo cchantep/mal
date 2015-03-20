@@ -1,6 +1,6 @@
 package mal
 
-modules = step0_repl
+modules = step0_repl, token, reader, printer, step1_read_print
+
 main = main
 executable = mal
-

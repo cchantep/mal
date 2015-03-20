@@ -19,6 +19,7 @@ print : t -> {default %instance s : ToString t} -> IO String
 print v = let str = string v in
   putStr str >>= (\_ => return str)
 
+private
 rep : IO ()
 rep = read "user> " >>= (\r =>
   foldl (\_ => \expr => do
@@ -28,5 +29,6 @@ rep = read "user> " >>= (\r =>
   ) (return ()) r)
 
 -- For MAL tests
+public
 step0_repl : IO ()
 step0_repl = rep
