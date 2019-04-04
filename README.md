@@ -1,4 +1,4 @@
-# mal - Make a Lisp
+# mal - Make a Lisp Test
 
 ## Description
 
