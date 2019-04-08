@@ -1,6 +1,8 @@
 {
   "portCheck": {
-    "labelRegex": "(foreport|backport):(.+)",
-    "branchRegex": "release/(.+)"
+    "labelRegex": "require-(foreport|backport):(.+)",
+    "releaseBranchRegex": [ "release/(.+)", "(master)" ],
+    "featureBranchRegex": [ "feature/(.+)", "task/(.+)", "chore/(.+)" ],
+    "portPattern": [ "task/{0}-{1}_{2}", "{0}/{2}/{1}" ]
   }
 }
