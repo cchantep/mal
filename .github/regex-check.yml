@@ -1,0 +1,8 @@
+# See https://github.com/li-boxuan/Regex-Checker
+
+mustMatch: "^(\[WIP\]|\[Backport\]|\[Foreport\]|)(\[PAP-[0-9]+\] |)[^\[^\]]+$"
+
+mustNotMatch:
+  - "^(Foreport|Backport|Fix|Feature|Task)"
+
+failureStatus: failure
