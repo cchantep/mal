@@ -1,3 +1,4 @@
 {
-	"mustMatch": "^(\\[WIP\\]|\\[Backport\\]|\\[Foreport\\]|)(\\[PAP-[0-9]+\\] |)[^\\[^\\]]+$"
+  "mustMatch": "^(\\[WIP\\]|\\[Backport\\]|\\[Foreport\\]|)(\\[PAP-[0-9]+\\] |)[^\\[^\\]]+$",
+  "mustNotMatch": "^(feature|task|fix|chore)/.*"
 }
