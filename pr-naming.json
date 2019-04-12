@@ -1,0 +1,3 @@
+{
+  "mustMatch": "^(\[WIP\]|\[Backport\]|\[Foreport\]|)(\[PAP-[0-9]+\] |)[^\[^\]]+$"
+}
