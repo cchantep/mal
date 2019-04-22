@@ -1,4 +1,4 @@
-# Xmal - Make a Lisp
+# Mal - Make a Lisp
 
 ## Description
 
