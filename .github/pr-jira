@@ -1,4 +1,0 @@
-{
-  "issueRefRegex": "^\\[([^\\[^\\]]+)\\].*$",
-  "fixVersionRegex": "^Release (.+)$"
-}
