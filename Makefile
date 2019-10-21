@@ -2,7 +2,6 @@
 # Command line settings
 #
 
-
 MAL_IMPL = js
 
 PYTHON = python
@@ -10,7 +9,6 @@ PYTHON = python
 #
 # Settings
 #
-
 IMPLS = bash c clojure coffee cs forth go haskell java js lua make mal \
 	ocaml matlab miniMAL nim perl php ps python r racket ruby rust \
 	scala vb
