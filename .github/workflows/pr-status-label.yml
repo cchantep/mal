@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Status labels
-        uses: cchantep/probot-pr-status-label@4769420
+        uses: cchantep/probot-pr-status-label@1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
