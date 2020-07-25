@@ -12,7 +12,7 @@ jobs:
   jira_pr:
     runs-on: ubuntu-latest
     steps:
-      - uses: cchantep/probot-jira@31f4d95
+      - uses: cchantep/probot-jira@2f6f24e
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PERSONAL_TOKEN_VALUE: ${{ secrets.PERSONAL_TOKEN_VALUE }}
