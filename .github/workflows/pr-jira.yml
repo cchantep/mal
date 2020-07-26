@@ -5,6 +5,7 @@ on:
     types: ['milestoned', 'demilestoned']
   pull_request:
     types: ['opened', 'edited', 'synchronize', 'reopened', 'closed']
+  repository_dispatch:
   schedule:
     - cron: '5 * * * *'
 
