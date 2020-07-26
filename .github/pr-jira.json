@@ -1,5 +1,5 @@
 {
   "issueKeyRegex": "^\\[([^\\[^\\]]+)\\].*$",
   "fixVersionRegex": "^Release (.+)$",
-  "postMergeStatus": [ "Validé par MM (Staging)" ]
+  "postMergeStatus": [ "Done" ]
 }
